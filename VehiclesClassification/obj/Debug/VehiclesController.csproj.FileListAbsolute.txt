@@ -1,5 +1,0 @@
-C:\Users\Natalia\workspace\ServiceVehicles\VehiclesClassification\bin\Debug\VehiclesClassification.dll
-C:\Users\Natalia\workspace\ServiceVehicles\VehiclesClassification\bin\Debug\VehiclesClassification.pdb
-C:\Users\Natalia\workspace\ServiceVehicles\VehiclesClassification\obj\Debug\VehiclesController.csprojResolveAssemblyReference.cache
-C:\Users\Natalia\workspace\ServiceVehicles\VehiclesClassification\obj\Debug\VehiclesClassification.dll
-C:\Users\Natalia\workspace\ServiceVehicles\VehiclesClassification\obj\Debug\VehiclesClassification.pdb

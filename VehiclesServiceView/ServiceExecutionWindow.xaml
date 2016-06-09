@@ -1,0 +1,27 @@
+﻿<Window x:Class="VehiclesServiceView.ServiceExecutionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VehiclesServiceView"
+        mc:Ignorable="d"
+        Title="Service Actions" Height="380" Width="525" MinHeight="380" MinWidth="525" Background="LightSalmon">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="346*"/>
+            <ColumnDefinition Width="167*"/>
+            <ColumnDefinition Width="6*"/>
+        </Grid.ColumnDefinitions>
+        <ScrollViewer x:Name="LogEntryScrollViewier" Grid.Column="0" VerticalScrollBarVisibility="Disabled" Grid.ColumnSpan="2" Margin="0,0,166.337,0">
+            <ListBox x:Name="LogsListBox" ItemsSource="{Binding LogEntries}">
+            </ListBox>
+        </ScrollViewer>
+        <StackPanel Grid.Column="1" Grid.ColumnSpan="2" Margin="0.4,0">
+            <Label x:Name="ServiceInfoLabel" VerticalAlignment="Top"/>
+            <DockPanel x:Name="ButtonsPanel" LastChildFill="False">
+                <Button x:Name="StartButton" Content="Start" Click="StartButtonClick"/>
+                <Button x:Name="FinishButton" Content="Finish" IsEnabled="False" Click="FinishButtonClick"/>
+            </DockPanel>
+        </StackPanel>
+    </Grid>
+</Window>

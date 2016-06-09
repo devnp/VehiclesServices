@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehiclesController", "VehiclesClassification\VehiclesController.csproj", "{CA09D7B9-7EC5-4B3C-A342-70DCE7A83A5E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehiclesServiceView", "VehiclesServiceView\VehiclesServiceView.csproj", "{357D28F9-25FA-4987-9748-6E7B37818827}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehiclesServiceView", "VehiclesService\VehiclesServiceView.csproj", "{357D28F9-25FA-4987-9748-6E7B37818827}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehiclesController", "VehiclesController\VehiclesController.csproj", "{CA09D7B9-7EC5-4B3C-A342-70DCE7A83A5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
