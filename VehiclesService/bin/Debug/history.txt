@@ -1,2 +1,0 @@
-|2016-06-08 00:46:56| RegNo: GD 1234 |Make: toyota |Model: yaris |Year: 2016 |Fuel: Diesel |Services: CheckBrakes; CheckTiresPressure; Refuel; 
-|2016-06-08 00:48:22| RegNo: WE 4567 |Make: opel |Model: astra |Year: 2009 |Fuel: Petrol |Services: CheckLights; CheckBrakes; CheckTiresPressure; ChangeEngineOil; Refuel; Wash; 
